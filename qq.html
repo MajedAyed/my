@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>برنامج Excel - ماجد العايد</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tajawal', sans-serif;
+      background-color: #e6f3ff;
+      color: #003366;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #004080;
+      padding: 30px 20px;
+      text-align: center;
+      color: white;
+      border-radius: 12px;
+      font-size: 32px;
+      font-weight: 700;
+    }
+
+    .social-icons {
+      margin-top: 15px;
+    }
+
+    .social-icons a {
+      margin: 0 8px;
+      display: inline-block;
+    }
+
+    .social-icons img {
+      width: 28px;
+      height: 28px;
+    }
+
+    .nav {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      font-size: 16px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: #004080;
+      background-color: #cce6ff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .nav a:hover {
+      background-color: #b3ddff;
+    }
+
+    .section-title {
+      font-size: 26px;
+      font-weight: bold;
+      margin: 40px 0 20px;
+      color: #002244;
+      text-align: center;
+    }
+
+    .posts {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .post-box {
+      background-color: #cce6ff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .post-box:hover {
+      transform: scale(1.02);
+    }
+
+    .post-title a {
+      text-decoration: none;
+      color: #003366;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        font-size: 24px;
+        padding: 20px;
+      }
+
+      .social-icons img {
+        width: 22px;
+        height: 22px;
+      }
+
+      .nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .nav a {
+        width: 90%;
+        text-align: center;
+      }
+
+      .section-title {
+        font-size: 22px;
+      }
+
+      .post-title a {
+        font-size: 16px;
+      }
+
+      footer {
+        font-size: 14px;
+        padding: 15px;
+      }
+    }
+
+
+
+.section-title-box {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #004080; /* نفس لون الهيدر */
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 40px 0 25px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      ماجد العايد
+      <div class="social-icons">
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/snapchat.svg" alt="Snapchat"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tiktok.svg" alt="TikTok"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="WhatsApp"></a>
+      </div>
+
+      <div class="nav">
+        <a href="index.html">الصفحة الرئيسية</a>
+        <a href="#">الأعمال المجانية</a>
+        <a href="#">برنامج Excel</a>
+        <a href="#">أنظمة WMS</a>
+        <a href="#">برنامج Access</a>
+        <a href="#">الخدمات</a>
+        <a href="#">English</a>
+      </div>
+    </header>
+
+    <div class="section-title-box">
+  برنامج Excel
+</div>
+
+
+    <div class="posts">
+      <div class="post-box">
+        <div class="post-title">
+          <a href="m.html">طريقة تصميم فاتورة في Excel</a>
+        </div>
+      </div>
+      <div class="post-box">
+        <div class="post-title">
+          <a href="#">شرح دالة VLOOKUP مع أمثلة عملية</a>
+        </div>
+      </div>
+      <div class="post-box">
+        <div class="post-title">
+          <a href="#">كيف تنسق جدول بيانات احترافي</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      جميع الحقوق محفوظة لـ ماجد العايد
+    </footer>
+  </div>
+
+</body>
+</html>

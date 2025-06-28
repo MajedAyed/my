@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ماجد العايد</title>
+
+  <!-- خط جميل: Tajawal -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tajawal', sans-serif;
+      background-color: #e6f3ff;
+      color: #003366;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #004080;
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+      border-radius: 12px;
+      font-size: 32px;
+      font-weight: 700;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      margin: 0 8px;
+      display: inline-block;
+    }
+
+    .social-icons img {
+      width: 28px;
+      height: 28px;
+    }
+
+    .sections {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 50px 0;
+    }
+
+    .section-box {
+      background-color: #cce6ff;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .section-box:hover {
+      transform: scale(1.03);
+    }
+
+    .section-box a {
+      text-decoration: none;
+      color: #003366;
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .section-desc {
+      font-size: 16px;
+    }
+
+    footer {
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        font-size: 24px;
+        padding: 25px;
+      }
+
+      .social-icons img {
+        width: 22px;
+        height: 22px;
+      }
+
+      .sections {
+        grid-template-columns: 1fr;
+      }
+
+      .section-box {
+        padding: 15px;
+        font-size: 16px;
+      }
+
+      .section-title {
+        font-size: 18px;
+      }
+
+      .section-desc {
+        font-size: 14px;
+      }
+
+      footer {
+        font-size: 14px;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      ماجد العايد
+      <div class="social-icons">
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" title="LinkedIn"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/snapchat.svg" alt="Snapchat" title="Snapchat"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tiktok.svg" alt="TikTok" title="TikTok"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter" title="Twitter"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube" title="YouTube"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="WhatsApp" title="WhatsApp"></a>
+      </div>
+    </header>
+
+    <div class="sections">
+      <div class="section-box">
+        <a href="#">
+          <div class="section-title">الأعمال المجانية</div>
+          <div class="section-desc">لعرض وتحميل الأعمال المجانية</div>
+        </a>
+      </div>
+      <div class="section-box">
+        <a href="qq.html">
+          <div class="section-title">برنامج Excel</div>
+          <div class="section-desc">شروحات ومقالات عن الإكسل</div>
+        </a>
+      </div>
+      <div class="section-box">
+        <a href="#">
+          <div class="section-title">أنظمة WMS</div>
+          <div class="section-desc">شروحات ومقالات عن أنظمة المستودعات</div>
+        </a>
+      </div>
+      <div class="section-box">
+        <a href="#">
+          <div class="section-title">برنامج Access</div>
+          <div class="section-desc">شروحات ومقالات عن الأكسس</div>
+        </a>
+      </div>
+      <div class="section-box">
+        <a href="#">
+          <div class="section-title">الخدمات</div>
+          <div class="section-desc">لعرض وطلب الخدمات المدفوعة</div>
+        </a>
+      </div>
+      <div class="section-box">
+        <a href="#">
+          <div class="section-title">English</div>
+          <div class="section-desc">المصادر التي فادتني بتعلم الإنجليزية</div>
+        </a>
+      </div>
+      <div class="section-box" style="grid-column: span 3;">
+        <a href="#">
+          <div class="section-title">من أنا</div>
+          <div class="section-desc">نبذه عني</div>
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      جميع الحقوق محفوظة لـ ماجد العايد
+    </footer>
+  </div>
+
+</body>
+</html>
